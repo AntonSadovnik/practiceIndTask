@@ -1,0 +1,50 @@
+section.team h2 {
+    color: #2ebaee;
+    font-size: 72px;
+}
+section.team div h2 span {
+    display: inline-block;
+    color: #000;
+    font-size: 72px;
+    margin: 100px 0 0 0;
+}
+
+section.team img {
+    display: block;
+    margin: 0 auto;
+    width: 234px;
+    height: 234px;
+    margin-top: 112px;
+}
+section.team div.name {
+    color: #242424;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 33px;
+}
+
+section.team div span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #878787;
+    margin-top: 17px;
+}
+section.team div a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 45px;
+    margin: 30px auto;
+}
+section.team div a:hover {
+    color: #2ebaee;
+    background: #fff;
+    border: 1px solid #2ebaee;
+}

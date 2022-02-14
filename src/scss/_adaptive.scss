@@ -1,0 +1,449 @@
+.img-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 319px) and (max-width: 768px) {
+    /* header */
+    header div.call-to h1 {
+        margin-top: 150px;
+        font-size: 44px;
+    }
+    header div.call-to p {
+        font-size: 20px;
+        margin: 100px 0 50px;
+    }
+    /* our services */
+    div.bg-services {
+        background-repeat: no-repeat;
+        background-position-y: 650px;
+        padding-bottom: 0;
+    }
+    section.our-services h2 {
+        font-size: 36px;
+        margin: 40px 0;
+        padding-bottom: 40px;
+    }
+    section.our-services div.services img {
+        margin: 0 auto 50px auto;
+    }
+    div.services h3 {
+        text-align: center;
+    }
+    div.services p {
+        text-align: center;
+    }
+    section.our-services div.bt a {
+        height: 45px;
+        width: 150px;
+        margin: 25px auto;
+    }
+    /* services-2 */
+    div.services-2 {
+        margin-top: 50px;
+    }
+    div.services-2 h3 {
+        text-align: center;
+        margin-top: 0;
+    }
+    div.services-2 p {
+        text-align: center;
+    }
+    div.services-2 a {
+        color: #fff;
+        background: #2ebaee;
+        margin: 50px auto;
+    }
+    .img-adaptive {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .laptop {
+        width: 100%;
+    }
+    /* services-3 */
+    div.services-3 {
+        margin-top: 80px;
+    }
+    div.services-3 div.serv {
+        padding-left: 0;
+    }
+    div.services-3 h3 {
+        color: #000;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    div.services-3 p {
+        color: #000;
+        text-align: center;
+    }
+    div.services-3 a {
+        color: #fff;
+        background: #2ebaee;
+        margin: 50px auto;
+    }
+    /* man */
+    .man .row {
+        flex-direction: column;
+    }
+    section.man div h3 {
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+    }
+    section.man div p {
+        text-align: center;
+        margin: 50px 0;
+    }
+    section.man a {
+        margin-bottom: 50px;
+    }
+    /* tuples */
+    section.tuples div a {
+        text-align: center;
+        padding-top: 150px;
+        padding-left: 0;
+    }
+    section.tuples div a h3 {
+        font-size: 36px;
+    }
+    /* team */
+    section.team div h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+    section.team div h2 span {
+        font-size: 48px;
+        margin-top: 40px;
+    }
+    section.team {
+        height: fit-content;
+    }
+    section.team img {
+        margin-top: 0;
+    }
+    /* footer */
+    section.footer div.contact {
+        font-size: 48px;
+        margin-top: 0;
+        text-align: center;
+    }
+    section.footer p.adress {
+        text-align: center;
+        margin-top: 0;
+    }
+    section.footer p {
+        font-size: 18px;
+    }
+    section.footer ul {
+        list-style-type: none;
+        margin-top: 10px;
+        padding: 0;
+    }
+    section.footer ul li + li {
+        margin-left: 0;
+    }
+    section.footer input[type="text"],
+    section.footer input[type="email"] {
+        width: 100%;
+        margin-top: 0;
+    }
+    section.footer textarea {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: fit-content;
+    }
+    section.footer button {
+        margin: 10px auto;
+    }
+    footer {
+        height: fit-content;
+    }
+    footer p,
+    footer ul {
+        margin-top: 20px;
+        padding: 0;
+        color: #fff;
+    }
+    footer ul li {
+        margin-left: 0px;
+    }
+    footer p {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        height: 560px;
+    }
+    header div.call-to h1 {
+        margin-top: 60px;
+        font-size: 48px;
+    }
+    header div.call-to p {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    header div.menu {
+        justify-content: center;
+    }
+    div.services h3 {
+        text-align: center;
+    }
+    section.our-services .row {
+        align-items: center;
+        text-align: center;
+    }
+    section.our-services div.services img {
+        display: block;
+        margin: 0 auto;
+    }
+    div.services-2 {
+        margin-top: 0;
+    }
+    div.services-2 p {
+        max-width: 100%;
+    }
+    div.services-2 a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.services-3 {
+        margin-top: 0;
+    }
+    div.services-3 div.serv {
+        padding-left: 20px;
+    }
+    div.services-2 h3,
+    div.services-3 h3 {
+        margin-top: 80px;
+    }
+    div.services-3 a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.bg-services {
+        background-position-y: 900px;
+        padding-bottom: 40px;
+    }
+    div.laptop {
+        margin: 50px 0;
+    }
+    section.man div h3 {
+        margin: 50px auto;
+        font-size: 28px;
+        text-align: center;
+        width: 90%;
+    }
+    section.man div p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    section.man div img {
+        height: 100%;
+    }
+    section.man a {
+        margin: 30px auto;
+    }
+    section.tuples div.block-1,
+    section.tuples div.block-2,
+    section.tuples div.block-3,
+    section.tuples div.block-4 {
+        min-height: 0;
+    }
+    section.tuples div.block-1 a h3,
+    section.tuples div.block-2 a h3,
+    section.tuples div.block-3 a h3,
+    section.tuples div.block-4 a h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-right: 60px;
+        margin-bottom: 150px;
+    }
+    section.team h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+    section.team h2 span.check-our {
+        text-align: center;
+        font-size: 48px;
+    }
+    section.team {
+        height: auto;
+    }
+    section.footer {
+        height: auto;
+        background-position: top center;
+    }
+    section.footer div.contact {
+        font-size: 48px;
+        margin-top: 35px;
+        text-align: center;
+    }
+    section.footer p.adress {
+        font-size: 16px;
+        text-align: center;
+    }
+    section.footer p {
+        font-size: 24px;
+        margin: 14px 0;
+        text-align: center;
+    }
+    section.footer ul {
+        margin: 0 0 0 17%;
+    }
+    section.footer input[type="text"] {
+        margin-top: 10px;
+    }
+    section.footer textarea {
+        height: 100px;
+    }
+    footer p,
+    footer ul {
+        padding: 0 10px;
+        text-align: right;
+    }
+    footer ul li {
+        margin-right: 12px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header nav ul li {
+        margin-right: 18px;
+    }
+    div.services div p {
+        padding-right: 10px;
+        text-align: center;
+    }
+    div.services div h3 {
+        text-align: center;
+    }
+    section.our-services div.services img {
+        display: block;
+        margin: 0 auto;
+    }
+    div.services-2 {
+        margin-top: 300px;
+    }
+    div.services-3 div {
+        margin-top: 200px;
+    }
+    div.services-3 div.serv {
+        padding-left: 20px;
+    }
+    div.services-3 {
+        margin-top: 20px;
+    }
+    div.services-2 h3,
+    div.services-3 h3 {
+        margin: 0;
+    }
+    section.man {
+        height: auto;
+    }
+    section.man div h3 {
+        margin: 0;
+        padding-left: 20px;
+        font-size: 36px;
+    }
+    section.man div p {
+        margin: 0;
+        padding-left: 20px;
+    }
+    section.man div a {
+        margin-left: 20px;
+    }
+    section.tuples div.block-1 a h3,
+    section.tuples div.block-2 a h3,
+    section.tuples div.block-3 a h3,
+    section.tuples div.block-4 a h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    section.team h2 {
+        text-align: center;
+        font-size: 48px;
+    }
+    section.team h2 span.check-our {
+        text-align: center;
+        font-size: 48px;
+    }
+    section.team img {
+        display: block;
+        margin: 0 auto;
+        width: 234px;
+        height: 234px;
+        margin-top: 112px;
+    }
+    section.team div.name {
+        font-size: 24px;
+    }
+    section.team {
+        height: auto;
+    }
+    section.footer {
+        height: auto;
+    }
+    section.footer div.contact {
+        font-size: 36px;
+    }
+    section.footer p.adress {
+        font-size: 14px;
+    }
+    section.footer p {
+        font-size: 24px;
+    }
+    section.footer ul li + li {
+        margin-left: 10px;
+    }
+    section.footer input[type="text"],
+    section.footer input[type="email"],
+    section.footer textarea {
+        width: 400px;
+    }
+    footer p {
+        text-align: right;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1409.98px) {
+    header div.call-to h1 {
+        width: 80%;
+        margin: 250px auto 0 auto;
+    }
+    div.services div p {
+        padding-right: 10px;
+    }
+    section.man div h3 {
+        margin: 55px 0 46px 75px;
+        font-size: 48px;
+    }
+    section.man div p {
+        margin: 0 0 25px 75px;
+    }
+    section.man div img {
+        height: 100%;
+    }
+    section.tuples div.block-1 a h3,
+    section.tuples div.block-2 a h3,
+    section.tuples div.block-3 a h3,
+    section.tuples div.block-4 a h3 {
+        font-size: 36px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    section.team h2 {
+        text-align: center;
+    }
+    section.footer input[type="text"],
+    section.footer input[type="email"],
+    section.footer textarea {
+        width: 400px;
+    }
+    footer p {
+        text-align: right;
+    }
+}

@@ -1,0 +1,37 @@
+section.man div.col-6 {
+    padding: 0;
+}
+section.man div img {
+    max-width: 100%;
+}
+section.man div h3 {
+    font-size: 72px;
+    color: #000;
+    max-width: 518px;
+    margin: 110px 0 92px 75px;
+}
+section.man div p {
+    color: #878787;
+    font-size: 16px;
+    max-width: 518px;
+    margin: 0 0 50px 75px;
+}
+
+section.man a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 45px;
+    margin-left: 75px;
+}
+section.man a:hover {
+    color: #2ebaee;
+    background: #fff;
+    border: 1px solid #2ebaee;
+}

@@ -1,0 +1,117 @@
+div.bg-services {
+    background: url(./images/services.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 440px;
+    padding-bottom: 140px;
+}
+section.our-services h2 {
+    color: #242424;
+    font-size: 48px;
+    text-align: center;
+    margin: 80px 0;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 80px;
+}
+section.our-services div.services img {
+    display: block;
+    margin-bottom: 50px;
+}
+div.services h3 {
+    color: #242424;
+    font-size: 24px;
+    margin-bottom: 34px;
+}
+div.services p,
+div.services-2 p {
+    color: #878787;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 520px;
+}
+
+section.our-services div.bt a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 45px;
+    margin: 65px auto;
+}
+section.our-services div.bt a:hover,
+div.services-2 a:hover {
+    color: #2ebaee;
+    background: #fff;
+    border: 1px solid #2ebaee;
+}
+div.services-2 {
+    margin-top: 180px;
+}
+div.services-2 h3 {
+    color: #242424;
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+div.services-2 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 45px;
+    margin-top: 50px;
+}
+div.services-3 {
+    margin-top: 240px;
+}
+div.services-3 div.serv {
+    padding-left: 100px;
+}
+div.services-3 h3 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+div.services-3 p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+div.services-3 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #2ebaee;
+    background: #fff;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 45px;
+    margin-top: 50px;
+}
+
+div.services-3 a:hover {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 45px;
+    margin-top: 50px;
+    border: 1px solid #fff;
+}

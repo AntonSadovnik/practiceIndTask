@@ -1,0 +1,16 @@
+@import "_header.scss";
+@import "_services.scss";
+@import "_man.scss";
+@import "_tuples.scss";
+@import "_team.scss";
+@import "_footer.scss";
+@import "_adaptive.scss";
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.container-fluid {
+    padding: 0;
+}
+.row {
+    --bs-gutter-x: 0;
+}
